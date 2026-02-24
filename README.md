@@ -54,11 +54,10 @@ contoh : mhs1.nama, mhs1.ipk
         this.nim = nim;
         this.ipk = ipk;
         kelas = kls;
-    }
-```
+    }```
 2. Baris tersebut membuat objek baru dari class Mahasiswa dan menyimpan objek ke atribut mhs2.
 3. Output yang dihasilkan error karena class hanya memiliki konstruktor berparameter, sehingga objek mhs1 tidak bisa dibuat karena pemanggillan parameter tidak dapat ditemukan.
 4. Tidak, karena method akan dieksekusi ketika dipanggil saja.
 5. saya menambahkan object mhs3  
-Mahasiswa10 mhs3 = new Mahasiswa10("Luthfiyanna Nuha Syahada", "254107060077", 4.00, "SIB 1F");
+```Mahasiswa10 mhs3 = new Mahasiswa10("Luthfiyanna Nuha Syahada", "254107060077", 4.00, "SIB 1F");```
 6. Sudah saya modifikasi.
