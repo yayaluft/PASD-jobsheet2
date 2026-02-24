@@ -25,5 +25,16 @@
 - IPK >= 3.0 = "Kinerja baik"
 - IPK >= 2.0 = "Kinerja cukup"
 - IPK < 2.0 = "Kinerja kurang" 
-(nilai yang di return adalah String dari pernyataan tiap if-else tersebut apabila telah memenuhi kriteria).
+  (nilai yang di return adalah String dari pernyataan tiap if-else tersebut apabila telah memenuhi kriteria).
 6. Sudah saya modifikasi.
+
+## PERCOBAAN 2
+1.	Pada class MahasiswaMain, tunjukkan baris kode program yang digunakan untuk proses instansiasi! Apa nama object yang dihasilkan?
+2.	Bagaimana cara mengakses atribut dan method dari suatu objek?
+3.	Mengapa hasil output pemanggilan method tampilkanInformasi() pertama dan kedua berbeda?
+# Jawaban:
+1. '''Mahasiswaa10 mhs1 = new Mahasiswa10();'''
+  object yang dihasilkan adalah mhs1
+2. Cara mengakses atribut dan method dari suatu objek dengan menggunakan format namaObjek.namaAtribut
+  contoh : mhs1.nama, mhs1.ipk
+3. Karena data di dalam objek setelah pemanggilan pertama diubah, sehingga ketika pemanggilan kedua mengikuti perubahan data tersebut.
