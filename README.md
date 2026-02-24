@@ -49,11 +49,12 @@ contoh : mhs1.nama, mhs1.ipk
 6.	Commit dan push kode program ke Github
 
 # Jawaban:
-1. public Mahasiswa10(String nm, String nim double ipk, String kls) {
-        nama = nm;
-        this.nim = nim;
-        this.ipk = ipk;
-        kelas = kls;
+1. public Mahasiswa10(String nm, String nim double ipk, String kls) {  
+        nama = nm;  
+        this.nim = nim;  
+        this.ipk = ipk;  
+        kelas = kls;  
+    
     }
 2. Baris tersebut membuat objek baru dari class Mahasiswa dan menyimpan objek ke atribut mhs2.
 3. Output yang dihasilkan error karena class hanya memiliki konstruktor berparameter, sehingga objek mhs1 tidak bisa dibuat karena pemanggillan parameter tidak dapat ditemukan.
