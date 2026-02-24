@@ -49,7 +49,8 @@ contoh : mhs1.nama, mhs1.ipk
 6.	Commit dan push kode program ke Github
 
 # Jawaban:
-1. ```public Mahasiswa10(String nm, String nim double ipk, String kls) {
+1. ```
+public Mahasiswa10(String nm, String nim double ipk, String kls) {
         nama = nm;
         this.nim = nim;
         this.ipk = ipk;
